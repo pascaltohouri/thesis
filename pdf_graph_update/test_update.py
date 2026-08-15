@@ -1,33 +1,4 @@
-"""
-print(f"Always print {var1}" +
-      f"{' optional debug info ' + str(var2) if debug_mode else ''}" +
-      f"{' verbose info ' + str(var3) if verbose_mode else ''}" +
-      f" Always print this too {var4}")
-"""
-
-r"""
-To activate tensorflow and tensroflow_probability:
-1. open command prompt
-2. type: C:\Users\pasca\Anaconda3\Scripts\activate tf
-3. Now the tf environment is active, type: python -c "import tensorflow as tf; print(tf.__version__)"
-4. Install tensorflow_probability: pip install tensorflow-probability
-5. After installation, verify it: python -c "import tensorflow_probability as tfp; print(tfp.__version__)"
-
-Slicing: array[start:stop:step],
-Omitting parameters:
-    array[:] selects all elements
-    array[start:] goes from start to the end
-    array[:stop] goes from the beginning to stop
-    array[::step] uses the specified step over the entire array
-
-Examples:
-    array[1:4] selects elements at indices 1, 2, and 3
-    array[-3:] selects the last three elements
-    array[::2] selects every other element
-    array[::-1] reverses the array
-"""
-
-import numpy as np
+import  numpy as np
 from scipy.stats import multivariate_normal
 import matplotlib.pyplot as plt
 debug_mode = True
