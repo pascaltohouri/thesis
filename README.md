@@ -4,3 +4,12 @@ An alternative, simpler execution file is in "step_wise_execution.py".
 The "test_update.py" file contains a debugging script for visualising the graph nodes and PDF.
 "test_full_execution.py" contains a second debugging script for the two main execution files.
 Thank you for taking the time to consider my project.
+
+
+Author's Notes
+2026-09-23: 
+- Neither the time based, nor the step wise training file runs correctly as stated. 
+- Several theoretical issues (e.g., PDF and sampling misspecifications) prevent convergence.
+- There are also implementation issues in the propagator and update architecture.
+- Later versions address these issues.
+- The current repo is merely a record of an early attempt at spatially embedded parameter conditioning.
