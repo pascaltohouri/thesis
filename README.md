@@ -8,8 +8,7 @@ Thank you for taking the time to consider my project.
 
 Author's Notes
 2026-09-23: 
-- Neither the time based, nor the step wise training file runs correctly as stated. 
-- Several theoretical issues (e.g., PDF and sampling misspecifications) prevent convergence.
+- Please note, neither the time based, nor the step wise training file runs correctly as stated. 
+- Several theoretical issues (e.g., PDF and sampling misspecifications) are what prevent convergence.
 - There are also implementation issues in the propagator and update architecture.
-- Later versions address these issues.
-- The current repo is merely a record of an early attempt at spatially embedded parameter conditioning.
+- Later versions will address these issues. So, the current repo is just a record of an early attempt at spatially embedded parameter conditioning.
